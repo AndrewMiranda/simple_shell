@@ -10,8 +10,8 @@ A Unix shell is a command-line interpreter or shell that provides a command line
 ###### for example 
        
     
-     vagrant@vagrant-ubuntu-trusty-64:~$ time
-	 real    0m0.000s
+    vagrant@vagrant-ubuntu-trusty-64:~$ time
+	real    0m0.000s
     user    0m0.000s
     sys     0m0.000s
     vagrant@vagrant-ubuntu-trusty-64:~$ date
