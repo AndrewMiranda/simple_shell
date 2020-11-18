@@ -1,0 +1,32 @@
+.\" Manpage.
+.\" To correct errors or typos.
+.TH man_simple_shell  "18 Nov 2020" "Holberton School 0x16. C - Simple_Shell"
+
+.SH NAME
+_printf() - takes input and prints to standard output.
+
+.SH SYNOPSIS
+
+
+.SH Sintaxis
+
+
+.SH format
+
+
+.SH DESCRIPTION
+
+.SH EXAMPLE
+
+.RS
+
+.RE
+
+.SH SEE ALSO
+Simple_shell
+
+.SH BUGS
+No known bugs.
+
+.SH AUTHOR
+Andrew Miranda and Sebastián Contreras
