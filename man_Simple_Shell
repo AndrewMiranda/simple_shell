@@ -2,31 +2,44 @@
 .\" To correct errors or typos.
 .TH man_simple_shell  "18 Nov 2020" "Holberton School 0x16. C - Simple_Shell"
 
-.SH NAME
-_printf() - takes input and prints to standard output.
+.SH NAME 
+0x16. C - Simple Shell
 
-.SH SYNOPSIS
+.SH SYNOPSIS 
+Simple-Shell it is a box where you put commands and these are interpreted by itself
 
+.SH DESCRIPTION 
+A Unix shell is a command-line interpreter or shell that provides a command line user interface for Unix-like operating systems. 
+The shell is both an interactive command language and a scripting language, and is used by the operating system to control the execution of the system using shell scripts.
 
-.SH Sintaxis
+.SH OPTIONS
+Descripción de las opciones aceptadas en la línea de comandos por el comando
+o herramienta.
+Normalmente splo se implementa en las secciones 1 y 8.
 
+.SH ENVIRONMENT 
+HOME contains the user's directory
+USER contains the user's login
+PWD contains current directory
+SHELL contains the name of the connection shell
+PATH contains the list of directories where the commands that the user can execute are located
+HOSTNAME contains the hostname
+HOSTSIZE contains the maximum size of the executed commands contained in the archive file
+PS1 contains the configuration for displaying the prompt
 
-.SH format
-
-
-.SH DESCRIPTION
-
-.SH EXAMPLE
-
-.RS
-
-.RE
-
-.SH SEE ALSO
-Simple_shell
-
-.SH BUGS
+.SH BUGS 
 No known bugs.
 
-.SH AUTHOR
+.SH EXAMPLE 
+
+vagrant@vagrant-ubuntu-trusty-64:~/simple_shell$ date
+Wed Nov 18 18:08:50 UTC 2020
+vagrant@vagrant-ubuntu-trusty-64:~/simple_shell$ time
+
+real    0m0.000s
+user    0m0.000s
+sys     0m0.000s
+vagrant@vagrant-ubuntu-trusty-64:~/simple_shell$
+
+.SH AUTHORS
 Andrew Miranda and Sebastián Contreras
