@@ -1,8 +1,8 @@
 # Simple Shell 👨🏻‍💻
 ### Authors
 
-- Andrew Miranda :fa-twitter-square:
-- Sebastián Contreras @Sebasssssss7 :fa-twitter-square:
+- Andrew Miranda / tiburonandrew@gmail.com 📧
+- Sebastián Contreras / sebastiancontreras15897@gmail.com 📧
 
 ------------
 ### Unix shell
@@ -53,4 +53,4 @@ the school gives us different learning objectives which are
 - How to suspend the execution of a process until one of its children terminates
 - What is EOF / “end-of-file”?
 
-###End
+#end
