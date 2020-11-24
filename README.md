@@ -22,19 +22,7 @@ A Unix shell is a command-line interpreter or shell that provides a command line
 
 
 ------------
-### FlowChart
 
-```flow
-st=>start: Login
-op=>operation: enter a command
-cond=>condition: Successful Yes or No?
-e=>end: run command
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-------------
 
 
 ## 0x16. C - Simple shell
