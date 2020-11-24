@@ -7,6 +7,7 @@
 ------------
 ### Unix shell
 A Unix shell is a command-line interpreter or shell that provides a command line user interface for Unix-like operating systems. The shell is both an interactive command language and a scripting language, and is used by the operating system to control the execution of the system using shell scripts.
+![](https://hipertextual.com/files/2015/03/terminal-linux.jpg)
 ###### for example 
        
     
@@ -26,8 +27,11 @@ A Unix shell is a command-line interpreter or shell that provides a command line
 This project is made for the holbertonSchoolColombia school, the objective is to create a simple unix command interpreter.
 
 ------------
-
-
+| Function name | Description                    |
+| ------------- | ------------------------------ |
+| `exit()`      | command to end the shell script.       |
+| `function_name()`   and that's what you will use to call it from elsewhere in your scripts.|
+------------
 ## Means
 Read or watch:
 1. Unix shell
@@ -53,4 +57,4 @@ the school gives us different learning objectives which are
 - How to suspend the execution of a process until one of its children terminates
 - What is EOF / “end-of-file”?
 
-#end
+💻#end💻
