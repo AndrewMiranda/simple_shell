@@ -22,15 +22,30 @@ A Unix shell is a command-line interpreter or shell that provides a command line
 
 
 ------------
+###FlowChart
+
+```flow
+st=>start: Login
+op=>operation: enter a command
+cond=>condition: Successful Yes or No?
+e=>end: run command
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+------------
+
 
 ## 0x16. C - Simple shell
 This project is made for the holbertonSchoolColombia school, the objective is to create a simple unix command interpreter.
 
 ------------
+## functions shell
 | Function name | Description                    |
 | ------------- | ------------------------------ |
-| `exit()`      | command to end the shell script.       |
-| `function_name()`   and that's what you will use to call it from elsewhere in your scripts.|
+| `exit()`      | command to end the shell script.|
+| `function_name()`|and that's what you will use to call it from elsewhere in your scripts.|
 ------------
 ## Means
 Read or watch:
@@ -56,5 +71,6 @@ the school gives us different learning objectives which are
 - How to execute another program with the execve system call
 - How to suspend the execution of a process until one of its children terminates
 - What is EOF / “end-of-file”?
+
 
 💻#end💻
