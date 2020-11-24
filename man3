@@ -12,11 +12,6 @@ Simple-Shell it is a box where you put commands and these are interpreted by its
 A Unix shell is a command-line interpreter or shell that provides a command line user interface for Unix-like operating systems. 
 The shell is both an interactive command language and a scripting language, and is used by the operating system to control the execution of the system using shell scripts.
 
-.SH OPTIONS
-Descripción de las opciones aceptadas en la línea de comandos por el comando
-o herramienta.
-Normalmente splo se implementa en las secciones 1 y 8.
-
 .SH ENVIRONMENT 
 HOME contains the user's directory
 USER contains the user's login
