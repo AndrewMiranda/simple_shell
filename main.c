@@ -5,7 +5,6 @@
 #define MAX_I 105
 
 main(void) {
-  
   char comando[MAX_I];
   char *args[MAX_ARGS];
 
@@ -33,7 +32,7 @@ main(void) {
         if (args[1])
           if (chdir(args[1]) != 0)
             printf("Error! %s no existe o no se puede cambiar a este directorio\n", args[1]);
-    else getcwd(PWD, MAX_I);
+          else getcwd(PWD, MAX_I);
       }
       else if (strcmp(comando, "dir") == 0)
         listaDir();
