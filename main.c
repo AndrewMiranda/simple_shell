@@ -45,7 +45,8 @@ main(void) {
         printf(" HOME=%s\n  PWD=%s\n", HOME, PWD);
         printf(" SHELL=%s\n  PATH=%s\n", SHELL, PATH);
       }
-      else if (strcmp(comando, "echo") == 0) {
+      else if (strcmp(comando, "echo") == 0) 
+      {
         if (args[1]) eco();
       }
       else if (strcmp(comando, "pwd") == 0)
