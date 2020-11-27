@@ -1,9 +1,5 @@
-#include <stdio.h>
-#include <stdio_ext.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <dirent.h>
+#include "holberton.h"
+/* #include <stdio_ext.h> */
 
 #define MAX_ARGS 13  /*Numero maximo de argumentos (-1) cuando se trate de un comando externo*/
 #define MAX_I 105 /*Numero de caracteres maximo para comando las variables de ambiente*/
