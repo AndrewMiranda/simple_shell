@@ -26,9 +26,11 @@ main(void) {
     __fpurge(stdin);
     memset(comando, '\0', MAX_I);
     scanf("%[^\n]s", comando);
-    if (strlen(comando) > 0) {
+    if (strlen(comando) > 0) 
+    {
       separaArgs();
-      if (strcmp(comando, "cd") == 0) {
+      if (strcmp(comando, "cd") == 0) 
+      {
         if (args[1])
           if (chdir(args[1]) != 0)
             printf("Error! %s no existe o no se puede cambiar a este directorio\n", args[1]);
