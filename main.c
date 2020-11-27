@@ -54,6 +54,6 @@ main(void) {
         continuar = 0;
       else comExterno();
     }
-  } while (continuar);
-  return(0);
+  } while (continuar); 
+  return (0); 
 }
