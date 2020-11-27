@@ -55,5 +55,5 @@ main(void) {
       else comExterno();
     }
   } while (continuar);
-  return 0;
+  return(0);
 }
