@@ -3,8 +3,6 @@
 #define MAX_ARGS 13
 #define MAX_I 105
 
-char *args[MAX_ARGS]; 
-
 void separaArgs(void){
 char comando[MAX_I]; 
 int i;
