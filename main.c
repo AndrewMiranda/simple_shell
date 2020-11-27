@@ -5,23 +5,23 @@
 #define MAX_I 105
 
 main(void) {
-  //Declaración variables
-  char comando[MAX_I]; //Comando que ingresa el usuario
-  char *args[MAX_ARGS]; //Arreglo que almacena los argumentos del comando ingresado
-  //Vaiables de ambiente
+  
+  char comando[MAX_I];
+  char *args[MAX_ARGS];
+
   char SHELL[MAX_I];
   char PATH[MAX_I];
   char HOME[MAX_I];
   char PWD[MAX_I];
   
   int continuar = 1;
-  //Variables de ambiente
+
   getcwd(PWD, MAX_I);
   strcpy(PATH, getenv("PATH"));
   
   strcpy(HOME, PWD);
   strcpy(SHELL,  PWD);
-  //Ciclo principal
+  
   do {
     printf(" %s > ", PWD);
     __fpurge(stdin);
