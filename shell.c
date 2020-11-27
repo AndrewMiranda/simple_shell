@@ -24,6 +24,7 @@ char SHELL[MAX_I];
 char PATH[MAX_I];
 char HOME[MAX_I];
 char PWD[MAX_I];
+char ruta[MAX_I];
 int archs;
 int cnt = -1;
 struct dirent **lista;
