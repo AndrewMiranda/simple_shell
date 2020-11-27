@@ -4,6 +4,7 @@
 #define MAX_I 105
 
 void separaArgs(void){
+char *args[MAX_ARGS]; 
 char comando[MAX_I]; 
 int i;
 for (i = 0; i < (MAX_ARGS-1); i++) args[i] = NULL; 
@@ -37,7 +38,11 @@ printf(" %s\n", lista[cnt]->d_name);
 }
 void eco(void)
 {
-char *args[MAX_ARGS]; 
+char *args[MAX_ARGS];
+char SHELL[MAX_I];
+char PATH[MAX_I];
+char HOME[MAX_I];
+char PWD[MAX_I];
 int i;
 int j;
 int k = 0;
@@ -71,6 +76,8 @@ printf("\n");
 
 void comExterno()
 {
+char comando[MAX_I];
+char *args[MAX_ARGS];
 int pid = 0;
 int status;
 pid = fork();
