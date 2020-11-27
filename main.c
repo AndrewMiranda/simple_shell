@@ -17,7 +17,8 @@ getcwd(PWD, MAX_I);
 strcpy(PATH, getenv("PATH"));
 strcpy(HOME, PWD);
 strcpy(SHELL,  PWD);
-do {
+do 
+{
 printf(" %s > ", PWD);
 __fpurge(stdin);
 memset(comando, '\0', MAX_I);
