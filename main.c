@@ -38,7 +38,7 @@ main(void) {
       else if (strcmp(comando, "dir") == 0)
         listaDir(); /*Si el comando es el dir llamar a la func correspondiente*/
       else if (strcmp(comando, "clr") == 0)
-        strcpy(comando,"clear"), comExterno(); /*Limpia la pantalla con la
+        strcpy(comando, "clear"), comExterno(); /*Limpia la pantalla con la
          funcion de comando externo y se pasa como comando clear.*/
       else if (strcmp(comando, "env") == 0) {
         printf(" Variables de ambiente:\n");/*Mostrar los valores de las var de ambiente*/
