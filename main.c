@@ -54,6 +54,6 @@ main(void) {
         continuar = 0; /*Cambiar el valor de continuar para que termine*/
       else comExterno(); /*Cualquier otra entrada llamar a comExterno*/
     }
-  }while(continuar); /*Volver a ejecutar mientras no ingresen exit*/
+  } while (continuar); /*Volver a ejecutar mientras no ingresen exit*/
   return 0;
 }
