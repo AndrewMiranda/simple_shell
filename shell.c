@@ -1,5 +1,8 @@
 #include "holberton.h"
 
+#define MAX_ARGS 13  /*Numero maximo de argumentos (-1) cuando se trate de un comando externo*/
+#define MAX_I 105 /*Numero de caracteres maximo para comando las variables de ambiente*/
+
 void separaArgs(void){
   int i;
   for(i=0;i<(MAX_ARGS-1);i++) args[i]=NULL; /*Borrar argumento previo que pudiera existir*/
