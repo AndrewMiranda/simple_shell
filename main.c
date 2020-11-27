@@ -145,3 +145,4 @@ void comExterno(){ /*Ejecutar entradas consideradas comando externos*/
   else
     wait(NULL); /*esperar a que termine el proceso hijo*/
 }
+
