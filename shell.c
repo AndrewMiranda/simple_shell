@@ -70,7 +70,7 @@ void comExterno(){ /*Ejecutar entradas consideradas comando externos*/
   if (pid==0){
     status=execvp(comando,args); /*Trata de ejecutar el comando y los argumentos que tenga*/
     if(status){
-      printf("Error! %s no se reconoce o no se pudo ejecutar\n",comando);
+      printf("¡Error! %s no se reconoce o no se pudo ejecutar\n",comando);
       exit(1); /*Como no se pudo ejecutar el comando cerramos el proceso hijo*/
     }
   }
