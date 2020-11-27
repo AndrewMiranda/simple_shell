@@ -1,9 +1,3 @@
-#include <stdio.h>
-#include <stdio_ext.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <dirent.h>
 #include "holberton.h"
 
 #define MAX_ARGS 13  /*Numero maximo de argumentos (-1) cuando se trate de un comando externo*/
