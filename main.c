@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <dirent.h>
+#include <dirent.h
+#include "holberton.h"
 
 #define MAX_ARGS 13  /*Numero maximo de argumentos (-1) cuando se trate de un comando externo*/
 #define MAX_I 105 /*Numero de caracteres maximo para comando las variables de ambiente*/
@@ -16,12 +17,6 @@ char SHELL[MAX_I];
 char PATH[MAX_I];
 char HOME[MAX_I];
 char PWD[MAX_I];
-/*Declarando cabeceras de funciones*/
-void separaArgs(void); /*Esta funcion separa la cadena ingresada por el usuario en 
-  palabras individuales, la 1ra palabra sera considerada comando y el resto sus argumentos*/
-void listaDir(void); /*Esta func ejecuta el comando dir*/
-void eco(void); /*Esta func ejecuta el comando echo*/
-void comExterno(void); /*Esta func ejecuta lo que se considere comandos externos*/
 
 main(void){
   int continuar=1;
