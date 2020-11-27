@@ -13,6 +13,6 @@
 void separaArgs(void); /*Esta func separa una cadena en palabras individuales*/
 void listaDir(void); /*Esta función ejecuta el comando dir*/
 void eco(void); /*Esta función ejecuta el comando echo*/
-void comExterno(void); /*Func que ejecuta lo que se considere comandos externos*/
+void comExterno(void); /*Func que ejecuta comandos externos*/
 
 #endif
