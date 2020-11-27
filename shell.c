@@ -1,20 +1,12 @@
 #include "holberton.h"
 
-/**
- *
- *
-**/
-
 #define MAX_ARGS 13
 #define MAX_I 105
-char comando[MAX_I]; 
+
 char *args[MAX_ARGS]; 
-char SHELL[MAX_I];
-char PATH[MAX_I];
-char HOME[MAX_I];
-char PWD[MAX_I];
 
 void separaArgs(void){
+char comando[MAX_I]; 
 int i;
 for (i = 0; i < (MAX_ARGS-1); i++) args[i] = NULL; 
 strtok(comando, " "), i = 0; 
@@ -23,6 +15,8 @@ while ((args[++i] = strtok(NULL, " ")) != NULL && i < (MAX_ARGS-2));
 }
 
 void listaDir(void){
+char *args[MAX_ARGS]; 
+char PWD[MAX_I];
 char ruta[MAX_I];
 int archs;
 int cnt = -1;
@@ -45,6 +39,7 @@ printf(" %s\n", lista[cnt]->d_name);
 }
 void eco(void)
 {
+char *args[MAX_ARGS]; 
 int i;
 int j;
 int k = 0;
