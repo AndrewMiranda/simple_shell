@@ -9,6 +9,16 @@
 #include <unistd.h>
 #include <dirent.h>
 
+/*Declarando variables*/
+char comando[MAX_I]; /*Esta var lee el comando que ingrese el usuario*/
+char *args[MAX_ARGS]; /*en este arreglo se almacenan los argumentos del comando ingresado*/
+
+/*Declarando variables de ambiente*/
+char SHELL[MAX_I];
+char PATH[MAX_I];
+char HOME[MAX_I];
+char PWD[MAX_I];
+
 /*Declarando cabeceras de funciones*/
 void separaArgs(void); /*Func que separa la cadena ingresada por el usuario en palabras individuales*/
 void listaDir(void); /*Esta func ejecuta el comando dir*/
